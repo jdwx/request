@@ -1,0 +1,19 @@
+{
+	"name": "jdwx/request",
+	"type": "library",
+	"description": "Attempt to manage content from HTTP requests in a safe way.",
+	"keywords": [ "http", "request" ],
+	"homepage": "https://github.com/jdwx/request",
+	"license": "MIT",
+	"authors": [{
+		"name": "Jeff Wheelhouse",
+		"email": "phplibs@wheelhouse.org",
+		"homepage": "https://github.com/jdwx",
+		"role": "Developer"
+	}],
+	"autoload": {
+		"psr-4": {
+			"JDWX\\Request\\": "src/"
+		}
+	}
+}
